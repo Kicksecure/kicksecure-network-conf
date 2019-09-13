@@ -70,7 +70,7 @@ Date:   Fri Apr 5 10:24:45 2019 -0400
 
     fix lintian warning
     
-    W: whonix-gw-network-conf: uses-implicit-await-trigger activate update-initramfs (line 6)
+    W: kicksecure-gw-network-conf: uses-implicit-await-trigger activate update-initramfs (line 6)
 
 commit c984e701579419cbd8f80b4ba0e03774ccbdc40c
 Author: Patrick Schleizer <adrelanos@riseup.net>
@@ -301,7 +301,7 @@ commit 58ee50f374433e49e6fad1875843d1c6f19014a9
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Dec 7 22:36:03 2016 +0000
 
-    - introduce /usr/share/whonix-gw-network-conf/network_internal_ip.txt
+    - introduce /usr/share/kicksecure-gw-network-conf/network_internal_ip.txt
     - add Whonix control-port-filter-python systemd IP config override
     
     https://phabricator.whonix.org/T573

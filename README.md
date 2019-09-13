@@ -5,8 +5,8 @@ Non-Qubes-Whonix-Gateway.
 
 Sets up two network interfaces, an external one eth0 and an internal one eth1.
 
-Provides /usr/share/whonix-gw-network-conf/network_internal_ip.txt.
-## How to install `whonix-gw-network-conf` using apt-get ##
+Provides /usr/share/kicksecure-gw-network-conf/network_internal_ip.txt.
+## How to install `kicksecure-gw-network-conf` using apt-get ##
 
 1\. Download [Whonix's Signing Key]().
 
@@ -34,15 +34,15 @@ echo "deb https://deb.whonix.org buster main contrib non-free" | sudo tee /etc/a
 sudo apt-get update
 ```
 
-5\. Install `whonix-gw-network-conf`.
+5\. Install `kicksecure-gw-network-conf`.
 
 ```
-sudo apt-get install whonix-gw-network-conf
+sudo apt-get install kicksecure-gw-network-conf
 ```
 
 ## How to Build deb Package ##
 
-Replace `apparmor-profile-torbrowser` with the actual name of this package with `whonix-gw-network-conf` and see [instructions](https://www.whonix.org/wiki/Dev/Build_Documentation/apparmor-profile-torbrowser).
+Replace `apparmor-profile-torbrowser` with the actual name of this package with `kicksecure-gw-network-conf` and see [instructions](https://www.whonix.org/wiki/Dev/Build_Documentation/apparmor-profile-torbrowser).
 
 ## Contact ##
 
@@ -51,4 +51,4 @@ Replace `apparmor-profile-torbrowser` with the actual name of this package with 
 
 ## Donate ##
 
-`whonix-gw-network-conf` requires [donations](https://www.whonix.org/wiki/Donate) to stay alive!
+`kicksecure-gw-network-conf` requires [donations](https://www.whonix.org/wiki/Donate) to stay alive!
