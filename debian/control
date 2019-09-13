@@ -22,5 +22,3 @@ Description: Network Configuration for Kicksecure
  Sets up external network interfaces eth0.
  .
  Disables systemd Predictable Network Interface Names.
- .
- Provides /usr/share/kicksecure-gw-network-conf/network_internal_ip.txt.
