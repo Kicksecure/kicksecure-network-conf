@@ -1,4 +1,4 @@
-## Copyright (C) 2012 - 2018 ENCRYPTED SUPPORT LP <adrelanos@riseup.net>
+## Copyright (C) 2012 - 2019 ENCRYPTED SUPPORT LP <adrelanos@riseup.net>
 ## See the file COPYING for copying conditions.
 
 Source: kicksecure-gw-network-conf
@@ -16,10 +16,9 @@ Architecture: all
 Depends: ifupdown, netbase, ${misc:Depends}
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
-Description: Network Configuration for Whonix-Gateway
- Includes etc/network/interfaces.d/30_non-qubes-whonix for
- Non-Qubes-Whonix-Gateway.
+Description: Network Configuration for Kicksecure
+ Includes etc/network/interfaces.d/30_kicksecure for Kicksecure.
  .
- Sets up two network interfaces, an external one eth0 and an internal one eth1.
+ Sets up external network interfaces eth0.
  .
  Provides /usr/share/kicksecure-gw-network-conf/network_internal_ip.txt.
