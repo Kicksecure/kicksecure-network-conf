@@ -1,0 +1,47 @@
+## Copyright (C) 2012 - 2018 ENCRYPTED SUPPORT LP <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+## for more information see interfaces(5)
+
+## Loopback interface.
+auto lo
+iface lo inet loopback
+
+## When using Virtual Machines (not Physical Isolation),
+## - eth0 is the NAT interface to communicate with VirtualBox
+## - used to get access to the internet
+## - it will get an IP address such as 10.0.2.15
+## - Thus, the this IP address can NOT cause conflicts
+##   with your LAN network or router.
+## We no longer use DHCP.
+## https://phabricator.whonix.org/T559
+#auto eth0
+#iface eth0 inet dhcp
+
+## Or alternatively we could use...
+## (Out commented by default.)
+## NAT interface to communicate with VirtualBox.
+auto eth0
+iface eth0 inet static
+        address 10.0.2.15
+        netmask 255.255.255.0
+        gateway 10.0.2.2
+        ## broadcast required?
+        #broadcast 10.0.2.255
+
+## When using Virtual Machines (not Physical Isolation),
+## - eth1 is an internal, isolated, virtual network,
+## - provided and only visible inside Virtual Machines
+## - solely used to communicate with the Workstation.
+## - it has has no access to the host
+## - Thus, the following IP address can NOT cause conflicts
+##   with your LAN network or router.
+auto eth1
+iface eth1 inet static
+       ## INT_IP and INT_IF
+       address 10.152.152.10
+       netmask 255.255.192.0
+       ## Out commented.
+       ## For what do we need network and broadcast anyway?
+       #network 192.168.0.0
+       #broadcast 192.168.0.255

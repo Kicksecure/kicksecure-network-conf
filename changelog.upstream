@@ -1,0 +1,626 @@
+commit 8885c6f69bd57f4dc9df1abf74d98b1096d7db2f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Aug 1 11:13:47 2019 +0000
+
+    readme
+
+commit ffefed02c7e604d7bd720f86959b24d8541916ad
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 7 23:01:02 2019 +0000
+
+    bumped changelog version
+
+commit dfdf6c776bb153f4f529277287d131449d3775dc
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 7 22:52:06 2019 +0000
+
+    fix lo -> eth1
+
+commit 95198d2d8916b6e34675876320404bb970720cb1
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 7 22:49:25 2019 +0000
+
+    replace deprecated PermissionsStartOnly=true by +
+
+commit a755a8ce9a88c9c1a87b85500766562cc477535b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jun 8 11:41:23 2019 +0000
+
+    bumped changelog version
+
+commit 2a7ff27c6fc11d090e14c469c02aee975a82fba7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jun 8 00:05:38 2019 -0400
+
+    fix debian/watch lintian warning debian-watch-contains-dh_make-template
+
+commit 424d873d3f643f9d540a84dcb4c7ce66aceeb2a1
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri May 24 21:04:59 2019 +0000
+
+    bumped changelog version
+
+commit 5edc7f8f0d139ab567313a76d475ead2c5bd937a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri May 24 12:29:13 2019 -0400
+
+    readme
+
+commit 670f3e85b360aedcd40edff4d8e410c95fa31bbe
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri May 3 11:43:37 2019 +0000
+
+    bumped changelog version
+
+commit 2c595c692d9dff347514eb3c20e955e1c11b97ad
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri May 3 10:56:59 2019 +0000
+
+    update
+
+commit 81b3e6bc37e0f8eba072d741bd0ba5ccfa0f9c22
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Apr 6 12:22:54 2019 +0000
+
+    bumped changelog version
+
+commit a0af5f69a36c3b85e77a8498b5f6c07730e8f38a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Apr 5 10:24:45 2019 -0400
+
+    fix lintian warning
+    
+    W: whonix-gw-network-conf: uses-implicit-await-trigger activate update-initramfs (line 6)
+
+commit c984e701579419cbd8f80b4ba0e03774ccbdc40c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 4 05:51:10 2019 -0400
+
+    port to debian buster
+
+commit f06bc8871cd1247ef0dfe3b5f54cce36244b49db
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Apr 3 18:06:14 2019 -0400
+
+    readme
+
+commit 736958fef795d38a270f5df347494f9d3c5e8181
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 29 10:13:17 2019 +0000
+
+    bumped changelog version
+
+commit 3d119713df949d3ec8267cbd43ef35b808614865
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 29 09:03:21 2019 +0000
+
+    https://www.whonix.org/wiki/Dev/Licensing
+
+commit f205d96e123be75291aca03d787b5bde85566f98
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Mar 12 11:46:49 2019 +0000
+
+    bumped changelog version
+
+commit 6690d91d4ef5540651ad55300148605e60a33cd0
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 1 14:32:44 2019 +0000
+
+    add improved legal protections clauses
+    
+    The license for software created by Whonix is the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version with additional terms applicable per GNU GPL version 3 section 7.
+    
+    The additional terms are based on the Doom 3 license which is Debian refers to as `GPL-3+-with-id-software-additional-terms`, which is Debian DFSG [1] (The Debian Free Software Guidelines) approved and which is therefore suitable for Debian `main`. Whonix made applied minimal changes to it:
+    
+    * Rewrite `The Doom 3 BFG Edition GPL Source Code` to the more common `this program` which is used throughout the GPL.
+    * Added a "trump clause" [2], in other words, any conflicts or disputes between the additional terms and the GPLv3 shall be resolved in favor of the GPLv3 by adding `Notwithstanding any other provision of this License` (as mentioned in GPL FAQ [3]) at the beginning of the additional terms.
+    
+    [1] https://www.debian.org/social_contract#guidelines
+    [2] https://www.fsf.org/news/canonical-updated-licensing-terms
+    [3] https://www.gnu.org/licenses/gpl-faq.html#v3Notwithstanding
+    
+    For more considerations, see also:
+    https://www.whonix.org/wiki/Dev/Licensing
+
+commit f3e10374fb5ff7558e6c4361b0b0dfcb0a7ab35c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Aug 27 17:02:17 2018 +0000
+
+    bumped changelog version
+
+commit 1d1bc658e03cc3f986af2d1f8538fef86cdfe340
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Aug 21 05:18:54 2018 +0800
+
+    readme
+
+commit 0e4906b84f2c08a20427e141b6a9ac6d9feb98db
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Feb 1 15:33:13 2018 +0000
+
+    bumped changelog version
+
+commit cb066bf7fbd288bfedb642c2424d45dfb5444f16
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Jan 29 15:50:56 2018 +0000
+
+    readme
+
+commit 594844679014703e3ffe5dc802a7355bea7ec4a8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Jan 29 15:39:04 2018 +0000
+
+    update copyright
+
+commit 91d10e5d954b2731779c67a3b10cda70929310b0
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Jan 29 15:22:13 2018 +0000
+
+    update copyright
+
+commit be81b87a213d19ea9edea8eb28e2de481b94b99b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Jan 29 15:15:25 2018 +0000
+
+    update copyright
+
+commit 67cbc5adcc11455fa5c2f84f53f567daded91e92
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Jan 29 15:09:50 2018 +0000
+
+    update copyright
+
+commit 79858b9c3ac189f98b43e0b5bebf9b8e55858438
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Sep 12 03:01:10 2017 +0200
+
+    bumped changelog version
+
+commit 9dc2cd2309667b2c8362c44de9bac25f70ef9d83
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Sep 3 12:44:57 2017 +0000
+
+    onion-grater systemd drop-in path fix
+
+commit 10ecf0c546ade8370bd9a738ecdea7f3d0260ba7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jul 26 14:43:09 2017 +0000
+
+    bumped changelog version
+
+commit ea748c13984e3426038e6f054cfec4733ac23813
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Mar 30 03:19:58 2017 +0200
+
+    control-port-filter-python -> onion-grater
+
+commit 8bf3a6e4392adc2316375f6218058fce31e9dc1c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Mar 30 03:14:35 2017 +0200
+
+    control-port-filter-python -> onion-grater
+
+commit 34e8acc99a6c66781d6e222fe5009961a6688a6c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 17 14:16:12 2017 +0000
+
+    bumped changelog version
+
+commit e5a2beb529792c3a18de20b3930fdcf07e0be857
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Feb 13 17:27:30 2017 +0000
+
+    readme
+
+commit 8eb8c255f2e7653d0f44fae39ecbe1518b499e3c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 10 15:47:55 2017 +0000
+
+    remove faketime from Build-Depends:
+    
+    since no longer used for reproducible builds
+
+commit 90df38ae5d11c8de80f5d4cae05962a5d194e290
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 10 15:35:33 2017 +0000
+
+    remove debian/gain-root-command workaround
+
+commit 8d7f0f7e550b025b2d0e3528a6243c0cf63f384e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 10 15:20:19 2017 +0000
+
+    packaging simplification config-package-dev (>= 5.1) -> config-package-dev
+
+commit c6f4efd81f043d0d73737118861ed328de0a85a6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Feb 6 02:11:11 2017 +0000
+
+    bumped changelog version
+
+commit ac459469b609262fa75df23a0aec85efb8649295
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Feb 2 18:54:15 2017 +0100
+
+    ExecStartPre=/usr/lib/tor-controlport-filter-merger
+    
+    https://phabricator.whonix.org/T617
+
+commit 22abb6c62173c5bc8f93a4d07d0a9fc1b3a809de
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jan 20 17:44:59 2017 +0100
+
+    bumped changelog version
+
+commit 0372c65612c413e43cb2cb2136222183524b540f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jan 20 17:42:38 2017 +0100
+
+    Disable Predictable Network Interface Names as these are problematic.
+    https://forums.whonix.org/t/whonix-14-0-0-0-7-developers-only/3449/4
+    Disabling them as per
+    'zless /usr/share/doc/udev/README.Debian.gz'.
+
+commit 4dc37aa42eec9164273169b653905830cd1744ee
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jan 15 15:38:33 2017 +0000
+
+    bumped changelog version
+
+commit 7799b6d2bb04c7187daa28801fc3dadcf43b9bf6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jan 15 08:35:52 2017 +0100
+
+    packaging, bumped Standards-Version from 3.9.6 to 3.9.8 for jessie support
+
+commit a20c50c6d54bea112514c89e3a08b0d045d307d6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jan 12 02:58:44 2017 +0000
+
+    bumped changelog version
+
+commit 87b4586112803ea36aac51af534bb6441b401ceb
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Dec 18 16:35:37 2016 +0100
+
+    tor-controlport-filter systemd drop-in change from --listen-address to --listen-interface eth1
+
+commit fdb9813baf2a05f14ad3f2a2ea7b92b151c4dea9
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Dec 10 02:39:21 2016 +0000
+
+    bumped changelog version
+
+commit faea94776d96df77a25720cf9208509b2a217bc1
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Dec 7 22:38:29 2016 +0000
+
+    update Debian package description
+
+commit 58ee50f374433e49e6fad1875843d1c6f19014a9
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Dec 7 22:36:03 2016 +0000
+
+    - introduce /usr/share/whonix-gw-network-conf/network_internal_ip.txt
+    - add Whonix control-port-filter-python systemd IP config override
+    
+    https://phabricator.whonix.org/T573
+
+commit 0ee01eb67ee8a7badfbb353d6b95a5cc78405bc2
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Nov 21 17:44:07 2016 +0000
+
+    readme
+
+commit 670b928231327fc858e4cc588c5be58d281b4f25
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Sep 26 20:38:45 2016 +0200
+
+    switch to static network configuration for external interface eth0
+    
+    so we no longer have to use a DHCP client, for better security hardening
+    
+    Thanks to @HulaHoopWhonix for suggesting this!
+    
+    https://phabricator.whonix.org/T559
+
+commit 1de56d18132ce2713e65602443fcff29232ab89f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 14 16:35:27 2016 +0000
+
+    comment
+
+commit e0dd0b6660eb6efed95a789134d8e17702afbfc9
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 14 18:32:23 2016 +0200
+
+    comment
+
+commit bdefdc762a7b832d3c89811252ca85f8744b406b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 14 18:18:46 2016 +0200
+
+    fix dependencies
+
+commit 9ac89f8d3981d913574d741dca7c295771890b87
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Oct 22 23:12:43 2015 +0000
+
+    bumped changelog version
+
+commit fc3bb9e4c4de2e3791fa79d4724a32608e68db8f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Sep 7 11:14:25 2015 +0000
+
+    use /etc/network/interfaces.d instead of /etc/network/interfaces - https://phabricator.whonix.org/T347
+
+commit d157a78f13948b11c91e91b7b4beb082b4aa54a7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Aug 25 14:08:33 2015 +0000
+
+    bumped changelog version
+
+commit 7328e728c36a84644227822dd66e265f78e4ae11
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jun 3 15:00:37 2015 +0000
+
+    bumped changelog version
+
+commit 6de3c0af902bc9dc93d06f08f8763bab45427dfc
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat May 23 13:43:44 2015 +0000
+
+    bumped changelog version
+
+commit 4136361ac308e8664a61eaf9c2da2fbba9c2e74b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat May 23 13:41:24 2015 +0000
+
+    Removed 'pre-up /usr/bin/whonix_firewall', because /etc/network/if-pre-up.d to load the firewall, because of a Debian upstream bug interface comes up even if a script in /etc/network/if-pre-up.d/ fails http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=700811 was fixed. - https://phabricator.whonix.org/T68
+
+commit c7c1e2b6056a7828aa9aac1ad828f77ffa787404
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 30 17:57:09 2015 +0000
+
+    bumped changelog version
+
+commit 6f7d68fe98c783b86151d9252fe247ab92dcc586
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Apr 28 13:43:30 2015 +0000
+
+    added debian/source/lintian-overrides with debian-watch-may-check-gpg-signature to fix lintian warning - https://phabricator.whonix.org/T277
+
+commit 7d5091657b06e50f1ab6c67e4e68963c69e47fbd
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Apr 26 23:18:39 2015 +0000
+
+    packaging, bumped Standards-Version from 3.9.4 to 3.9.6 for jessie support
+
+commit df18a6fe46060dfd65405f4ef8079ebe30dd322e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Apr 7 17:43:09 2015 +0000
+
+    bumped changelog version
+
+commit 4ecee68c60d097b6fff5ea7d6160ecb905bee7a6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 2 18:41:40 2015 +0000
+
+    added genmkfile to Build-Depends
+
+commit f982c8bd3e1cf77ef828d81f2bfabfec67a8046e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 2 17:24:55 2015 +0000
+
+    updated makefile generic to version 1.5
+
+commit 012064157131de4dba3149c0c75b9ebe6205db84
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Mar 24 17:37:11 2015 +0000
+
+    bumped changelog version
+
+commit d181585a424c0be756a854c4b8d226b177f40155
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Mar 24 17:27:01 2015 +0000
+
+    updated makefile generic to version 1.4
+
+commit 8747a1c1fd033206e837a2dfa289a6b95173fc90
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Feb 4 00:56:44 2015 +0000
+
+    bumped changelog version
+
+commit 09f8acbceca271e28056cb6e1edfac34f3924528
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Feb 4 00:45:06 2015 +0000
+
+    added changelog.upstream
+
+commit 48134297caa8eb1fe439eea708af9e7fb272eede
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Feb 4 00:41:00 2015 +0000
+
+    updated makefile generic to version 1.3
+
+commit 12cfb0e6a617ec1aaae105bcae6759cfde0fe73e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Feb 3 23:59:00 2015 +0000
+
+    Added creation of upstream changelog to debian/rules
+
+commit be0dc86570f13a2acdb376ae90dfabcd663ef6f9
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jan 7 19:35:02 2015 +0000
+
+    bumped compat from 8 to 9
+
+commit 7aae806ef27b3ca8f4c01b450704c7e688ab7434
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Dec 5 19:01:30 2014 +0000
+
+    updated generic makefile
+
+commit a5c290810fb29977e6e7c0fc710ff070488b58f8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Oct 28 22:35:34 2014 +0000
+
+    makefile: refactoring, avoid using IFS
+
+commit 6e2375f601f5a38cedac602c69f9d4ada42aa9c2
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Oct 25 01:58:55 2014 +0000
+
+    makefile:
+    - make debdist; make undebdist
+    - cleanup
+    - refactoring
+
+commit 8d156de0efa93c1dbceb477bde5b2a3168d2ee47
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Oct 23 22:43:05 2014 +0000
+
+    makefile:
+    - new target "make undist", which deletes the upstream tarball
+    - $DISTDIR variable for make (un)dist, which defaults to ".." and can be used to create upstream tarballs in arbitrary locations
+    - refactoring, all function names and global variables now start with "make_" to make the script `source`ing friendly
+    - made `source`able
+
+commit 273fed4daa6baae7526bb9707b2acdaa33a252bb
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Oct 13 12:37:00 2014 +0000
+
+    readme
+
+commit cc63aed3746e51aec591d25e266b963eaad33485
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Aug 19 18:52:46 2014 +0000
+
+    makefile: added new feature "make deb-chl-bumpup" - Bump upstream version number in debian/changelog.
+
+commit 449080cecec43251005e3782f68bec26bd7e1548
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 17 20:54:28 2014 +0000
+
+    Updated debian/changelog.
+
+commit ff8e7571ad12919818ab5a0ddbfe6d6c06146cad
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 17 20:47:31 2014 +0000
+
+    Fixed changelog date.
+
+commit 7366179c64058ea00f47cd6576372a35cc16f7e5
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 17 18:03:33 2014 +0000
+
+    bump version number
+
+commit 2918f04eef71157854fac0ddd98119fa1f2fa4ec
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Aug 14 13:35:22 2014 +0000
+
+    Implemented make deb-icup: Combination of make deb-pkg, make deb-pkg-install and make deb-pkg-cleanup.
+
+commit e3537800c102f8ac4441a56c70d3efb7fc65b272
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Jul 28 23:25:47 2014 +0000
+
+    readme
+
+commit 5c8efe9c03b8eea360797649cf51057d5be8a456
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 27 12:42:30 2014 +0000
+
+    packaging
+
+commit cb491124745454dfe14b1ba0b1228c07130de77b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 27 04:01:16 2014 +0000
+
+    packaging
+
+commit ee0ce2462ef3ae676a29bef490e5de9f855daa82
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 26 15:26:41 2014 +0000
+
+    packaging
+
+commit d83a361b0a17ac187db2488a17254906fcbb71d6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jul 25 15:25:01 2014 +0000
+
+    fixed lintian warning
+
+commit 1165e89a7fc84403b63e73e5166a266e234c2825
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 12 17:11:05 2014 +0000
+
+    packaging
+
+commit cf740dd8a4069de28d65f0a3267676619a9f7cef
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 12 15:34:22 2014 +0000
+
+    packaging
+
+commit cd8633e04ecfe47342e316ddc3594104340dfe21
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 5 08:11:02 2014 +0000
+
+    Bumped debian revision number to avoid lintian warning "new-package-should-close-itp-bug" so we can use lintian --fail-on-warnings as sanity test.
+
+commit 102ad6ebffc589f8316fd2b4eeaf9157770e638b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jun 24 15:45:15 2014 +0000
+
+    added debian epoch; added dotglob
+
+commit 152920c156444863844d6b75d990f65c3d52bd7e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jun 14 10:05:25 2014 +0000
+
+    packaging
+
+commit ce0d5f59bc40a6b237fc2617e162ff3fc365a660
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jun 12 04:22:45 2014 +0000
+
+    packaging
+
+commit d958dc7de8bfd3c57a84b86907781f0382b6b740
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jun 12 04:21:22 2014 +0000
+
+    packaging
+
+commit ef686d3c442e645a0b25b8b74d536958cc528a9e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jun 10 14:19:34 2014 +0000
+
+    update IP as per https://www.whonix.org/forum/index.php/topic,107.0.html
+
+commit dbd074f94bf7ff17b0bf214ead9460a98379100c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Jun 9 13:37:47 2014 +0000
+
+    Changed Whonix-Gateway internal IP address to 11.150.150.150 and netmask to 255.255.192.0 to avoid conflicts, such as with real networks when using physical isolation and to aid KVM users.
+
+commit 0cb75d405595214d306304e8601f80d2d182c0ba
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jun 3 18:27:40 2014 +0000
+
+    readme
+
+commit 1f17269302f17dcb890e9b61189698dea8bbc194
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jun 1 15:38:56 2014 +0000
+
+    readme
+
+commit 608e7dd3c794d0a8fb5d0ae5c8a13e17361480c0
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat May 31 14:01:01 2014 +0000
+
+    initial import from https://github.com/Whonix/Whonix
