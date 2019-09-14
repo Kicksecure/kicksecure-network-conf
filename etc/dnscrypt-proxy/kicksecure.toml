@@ -1,6 +1,8 @@
 # Empty listen_addresses to use systemd socket activation
 listen_addresses = []
 
+## https://github.com/DNSCrypt/dnscrypt-proxy/blob/master/dnscrypt-proxy/example-dnscrypt-proxy.toml
+
 server_names = ['scaleway-fr']
 
 force_tcp = true
