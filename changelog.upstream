@@ -1,3 +1,39 @@
+commit cf0a06909513c53bd9c40c56c2c741b0a734c658
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Sep 14 12:32:14 2019 +0000
+
+    comment
+
+commit b30786a80f86726a79fc9a42dad20780866c8995
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Sep 14 12:21:06 2019 +0000
+
+    DnsCrypt config
+
+commit 12dbe196e4d116502a1646e7fc69ead676af86ba
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Sep 14 12:18:20 2019 +0000
+
+    config-package-dev displace /etc/resolv.conf
+
+commit 9bdc01390dcb534cbc52e4d88f2cae2059f2eb3b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Sep 14 12:16:38 2019 +0000
+
+    fix package name
+
+commit 885675eb1c988b82f980c652cd51847b55528c6d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Sep 14 12:15:42 2019 +0000
+
+    fix package name
+
+commit c045f29e3b73e836a3bd7146727837126cb5e1b1
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Sep 13 14:30:21 2019 +0000
+
+    bumped changelog version
+
 commit 669ac785892763dc9fa5063f3762c4895f6bd59e
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Sep 13 14:28:52 2019 +0000
