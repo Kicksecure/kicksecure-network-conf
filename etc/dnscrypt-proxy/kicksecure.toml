@@ -3,7 +3,26 @@ listen_addresses = []
 
 ## https://github.com/DNSCrypt/dnscrypt-proxy/blob/master/dnscrypt-proxy/example-dnscrypt-proxy.toml
 
-server_names = ['scaleway-fr']
+## Server List Discussion
+## https://forums.whonix.org/t/use-dnscrypt-by-default-in-kicksecure-not-whonix/8117/3
+server_names = [
+'charis',
+'arvind-io',
+'bottlepost-dns-nl',
+'developerli-fr',
+'developerli-fr-ipv6',
+'developerli-de',
+'developerli-de-ipv6',
+'developerli-fr-doh',
+'developerli-fr-doh-ipv6',
+'developerli-de-doh',
+'developerli-de-doh-ipv6',
+'dnscrypt.ca-1',
+'dnscrypt.ca-2',
+'dnscrypt.ca-1-ipv6',
+'dnscrypt.ca-2-ipv6',
+'scaleway-fr'
+]
 
 force_tcp = true
 
