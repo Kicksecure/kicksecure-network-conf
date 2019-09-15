@@ -1,3 +1,29 @@
+commit 149b54db64c1b0ef869cf4a4e45a261b5897d5c5
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Sep 15 11:50:47 2019 +0000
+
+    readme
+
+commit 6e4e5cf2a06f59919b1e267abb079fe8c0584331
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Sep 15 11:46:02 2019 +0000
+
+    description
+
+commit 2fa3cc18ddd4c728c99ca9cba63015b389e47950
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Sep 15 11:27:38 2019 +0000
+
+    use DNSCrypt servers as discussed
+    
+    https://forums.whonix.org/t/use-dnscrypt-by-default-in-kicksecure-not-whonix/8117/3
+
+commit d7611cd3bc0f7a068e306047db21450177be82cc
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Sep 15 11:00:34 2019 +0000
+
+    bumped changelog version
+
 commit a5432d17337ee73e1601c9ef35ef6a0ef600714d
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Sep 15 05:05:23 2019 -0400
