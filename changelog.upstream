@@ -1,3 +1,17 @@
+commit a5432d17337ee73e1601c9ef35ef6a0ef600714d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Sep 15 05:05:23 2019 -0400
+
+    add DNSCrypt / dnscrypt-proxy to /etc/resolv.conf as comment
+    
+    to simplify enabling it
+
+commit c70dd15dbd510bd2daec1eaecfc819dae6abe1e0
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Sep 14 13:19:49 2019 +0000
+
+    bumped changelog version
+
 commit cf0a06909513c53bd9c40c56c2c741b0a734c658
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sat Sep 14 12:32:14 2019 +0000
