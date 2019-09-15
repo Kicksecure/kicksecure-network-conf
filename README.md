@@ -1,10 +1,12 @@
 # Network Configuration for Kicksecure #
 
-Includes etc/network/interfaces.d/30_kicksecure for Kicksecure.
-
-Sets up external network interfaces eth0.
+Sets up external network interfaces eth0 by shipping a configuration file
+/etc/network/interfaces.d/30_kicksecure for Kicksecure.
 
 Disables systemd Predictable Network Interface Names.
+
+Configures DNS by shipping a configuration file /etc/resolv.conf for
+Kicksecure.
 ## How to install `kicksecure-network-conf` using apt-get ##
 
 1\. Download [Whonix's Signing Key]().
