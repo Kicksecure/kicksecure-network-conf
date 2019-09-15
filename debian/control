@@ -17,8 +17,10 @@ Depends: ifupdown, netbase, ${misc:Depends}
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Network Configuration for Kicksecure
- Includes etc/network/interfaces.d/30_kicksecure for Kicksecure.
- .
- Sets up external network interfaces eth0.
+ Sets up external network interfaces eth0 by shipping a configuration file
+ /etc/network/interfaces.d/30_kicksecure for Kicksecure.
  .
  Disables systemd Predictable Network Interface Names.
+ .
+ Configures DNS by shipping a configuration file /etc/resolv.conf for
+ Kicksecure.
