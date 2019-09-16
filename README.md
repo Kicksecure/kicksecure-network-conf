@@ -7,6 +7,8 @@ Disables systemd Predictable Network Interface Names.
 
 Configures DNS by shipping a configuration file /etc/resolv.conf for
 Kicksecure.
+
+Enables DNSCrypt.
 ## How to install `kicksecure-network-conf` using apt-get ##
 
 1\. Download [Whonix's Signing Key]().
