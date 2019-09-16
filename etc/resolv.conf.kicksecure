@@ -5,7 +5,7 @@
 ## yes, really 127.0.2.1
 ## not 127.0.0.1
 ## see /lib/systemd/system/dnscrypt-proxy.socket
-#nameserver 127.0.2.1
+nameserver 127.0.2.1
 
 ## VirtualBox DNS server.
-nameserver 10.0.2.3
+#nameserver 10.0.2.3
