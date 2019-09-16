@@ -1,3 +1,21 @@
+commit 3adff6c22c2fb524d4eea368d9a1f484a82367ac
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Sep 16 13:32:29 2019 +0000
+
+    readme
+
+commit 98dc7adbca2c671b26d48eafb03b293c5c8eb681
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Sep 16 07:33:19 2019 -0400
+
+    enable DNSCrypt by default
+
+commit 563fe0480a130261106fba7e996a3b9c93a7d9f5
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Sep 15 11:51:07 2019 +0000
+
+    bumped changelog version
+
 commit 149b54db64c1b0ef869cf4a4e45a261b5897d5c5
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Sep 15 11:50:47 2019 +0000
