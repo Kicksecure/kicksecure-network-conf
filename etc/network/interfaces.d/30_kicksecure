@@ -1,6 +1,12 @@
 ## Copyright (C) 2012 - 2019 ENCRYPTED SUPPORT LP <adrelanos@riseup.net>
 ## See the file COPYING for copying conditions.
 
+#### meta start
+#### project Kicksecure
+#### category networking
+#### description network interfaces configuration eth0
+#### meta end
+
 ## for more information see interfaces(5)
 
 ## Loopback interface.

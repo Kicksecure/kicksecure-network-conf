@@ -50,3 +50,9 @@ require_nofilter = true
   minisign_key = 'RWQf6LRCGA9i53mlYecO4IzT51TGPpvWucNSCh1CBM0QTaLn73Y7GFO3'
   refresh_delay = 72
   prefix = ''
+
+#### meta start
+#### project Kicksecure
+#### category networking and dns
+#### description DNSCrypt configuration
+#### meta end
