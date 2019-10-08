@@ -54,5 +54,6 @@ require_nofilter = true
 #### meta start
 #### project Kicksecure
 #### category networking and dns
-#### description DNSCrypt configuration
+#### description
+## DNSCrypt configuration
 #### meta end

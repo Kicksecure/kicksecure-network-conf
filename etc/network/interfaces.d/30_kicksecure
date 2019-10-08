@@ -4,7 +4,8 @@
 #### meta start
 #### project Kicksecure
 #### category networking
-#### description network interfaces configuration eth0
+#### description
+## network interfaces configuration eth0
 #### meta end
 
 ## for more information see interfaces(5)
