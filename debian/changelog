@@ -1,3 +1,9 @@
+kicksecure-network-conf (3:3.7-1) unstable; urgency=medium
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Mon, 14 Oct 2019 10:19:50 +0000
+
 kicksecure-network-conf (3:3.6-1) unstable; urgency=medium
 
   * New upstream version (local package).
