@@ -1,3 +1,28 @@
+commit 20e91eccaf220e2d23ac0d370b6c6ff3842fc58b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jan 1 06:16:29 2020 -0500
+
+    readme
+
+commit 01711468a28d5204efbe9e541bbd53e50a5feacb
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jan 1 06:15:47 2020 -0500
+
+    disable systemd-resolved for better security
+    
+    https://phabricator.whonix.org/T793
+    https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=761658
+    https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=761658#216
+    https://www.freedesktop.org/software/systemd/man/systemd-resolved.service.html
+    https://forums.whonix.org/t/os-generated-network-traffic
+    https://forums.whonix.org/t/systemd-resolver-llmnr/8698
+
+commit d560b9845a946fd85a0fb135d9fea86d0089978f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Oct 14 10:19:50 2019 +0000
+
+    bumped changelog version
+
 commit af505560218cf8bf41e8c4244defdf7a04bcc42f
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Oct 8 04:14:48 2019 -0400
