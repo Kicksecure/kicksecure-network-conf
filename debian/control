@@ -13,7 +13,8 @@ Standards-Version: 4.3.0
 
 Package: kicksecure-network-conf
 Architecture: all
-Depends: ifupdown, netbase, dnscrypt-proxy, dhcpcanon, ${misc:Depends}
+Depends: ifupdown, netbase, dnscrypt-proxy, dhcpcanon, 
+network-manager-gnome, ${misc:Depends}
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Network Configuration for Kicksecure
