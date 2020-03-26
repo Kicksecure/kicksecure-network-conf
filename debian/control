@@ -14,10 +14,10 @@ Standards-Version: 4.3.0
 Package: kicksecure-network-conf
 Architecture: all
 Depends: ifupdown, netbase, dnscrypt-proxy, dhcpcanon,
- network-manager-gnome, ${misc:Depends}
+ ${misc:Depends}
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
-Description: Network Configuration for Kicksecure
+Description: Network Configuration for Kicksecure CLI
  Sets up external network interfaces eth0 by shipping a configuration file
  /etc/network/interfaces.d/30_kicksecure for Kicksecure.
  .
@@ -31,3 +31,12 @@ Description: Network Configuration for Kicksecure
  Disables systemd-resolved fallback DNS (which by default is set to Google).
  .
  Enables DNSCrypt.
+
+Package: kicksecure-network-conf-gui
+Architecture: all
+Depends: network-manager-gnome, ${misc:Depends}
+Description: Network Configuration for Kicksecure GUI
+ A metapackage with dependencies recommended for a Kicksecure GUI for
+ networking.
+ .
+ See also kicksecure-network-conf.
