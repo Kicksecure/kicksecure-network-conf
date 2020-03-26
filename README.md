@@ -1,4 +1,4 @@
-# Network Configuration for Kicksecure #
+# Network Configuration for Kicksecure CLI #
 
 Sets up external network interfaces eth0 by shipping a configuration file
 /etc/network/interfaces.d/30_kicksecure for Kicksecure.
