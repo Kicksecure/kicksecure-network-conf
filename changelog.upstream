@@ -1,3 +1,79 @@
+commit 38eed45cb5b0fda5ca44561819f3c13e9da4f9a8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Mar 26 08:11:14 2020 -0400
+
+    readme
+
+commit 24f7d3ecfb72d2c54c13f01d4eefb72205394ec9
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Mar 26 04:18:41 2020 -0400
+
+    split into kicksecure-network-conf and kicksecure-network-conf-gui
+
+commit 022582b99a30b496ce3dc831331137fe8e1e6fa8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Mar 26 04:12:48 2020 -0400
+
+    fix
+
+commit 2f5375aa61899bccc8ce82e484c4a93c9edd2ba3
+Merge: 85df3fc 2ba295f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Mar 26 04:12:28 2020 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 2ba295f835336dafa2b88a4a81a519ebf51acb63
+Merge: 447893c 46c8d2f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Mar 25 11:47:24 2020 +0000
+
+    Merge pull request #3 from HulaHoop0/patch-3
+    
+    network-manager-gnome
+
+commit 46c8d2f7aeefb15361c2e79ee3053a1c4bb9d90b
+Author: HulaHoop0 <55955185+HulaHoop0@users.noreply.github.com>
+Date:   Tue Mar 24 13:57:23 2020 +0000
+
+    network-manager-gnome
+
+commit 447893ceefb3221809de35a4e657d761ae136028
+Merge: 0e5b13b 4077e64
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Mar 18 16:05:51 2020 +0000
+
+    Merge pull request #2 from HulaHoop0/patch-2
+    
+    dhcp enabled
+
+commit 0e5b13b6a66a0ab65b4b198a55902cb9d3a54cd5
+Merge: 85df3fc fbbb547
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Mar 18 16:05:42 2020 +0000
+
+    Merge pull request #1 from HulaHoop0/patch-1
+    
+    Add dhcpcanon
+
+commit 4077e64847b57ea2fbad2b913c3184df18d467b1
+Author: HulaHoop0 <55955185+HulaHoop0@users.noreply.github.com>
+Date:   Wed Mar 18 14:59:32 2020 +0000
+
+    dhcp enabled
+
+commit fbbb547b03d85ad122b2a83f85fcf9c76b120e94
+Author: HulaHoop0 <55955185+HulaHoop0@users.noreply.github.com>
+Date:   Wed Mar 18 14:56:50 2020 +0000
+
+    Add dhcpcanon
+
+commit 85df3fcdc46b379c9c1555fd34fcbad234d1793b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jan 1 06:17:24 2020 -0500
+
+    bumped changelog version
+
 commit 20e91eccaf220e2d23ac0d370b6c6ff3842fc58b
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Jan 1 06:16:29 2020 -0500
