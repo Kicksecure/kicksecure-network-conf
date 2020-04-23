@@ -1,3 +1,17 @@
+commit 60b265ccd03b1d55745a7ef5b76e78b396bfab09
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 23 10:02:50 2020 -0400
+
+    kicksecure-network-conf Depends: wpasupplicant
+    
+    http://forums.whonix.org/t/kicksecure-network-configuration/8985/61
+
+commit 92b55a7a775af7b0eaa4f8f8154dfa1fc6ab3ad5
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 23 08:13:45 2020 -0400
+
+    bumped changelog version
+
 commit 5bc94b607ddcdf46dde531f30af71cd887fbfe87
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Apr 23 08:13:44 2020 -0400
