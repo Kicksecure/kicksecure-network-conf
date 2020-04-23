@@ -1,3 +1,20 @@
+commit 65e900cd8d56d753ce5be0695e7788d15adc61fe
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 23 07:29:24 2020 -0400
+
+    remove ifupdown configuration /etc/network/interfaces.d/30_kicksecure
+    
+    remove dependency on ifupdown
+    remove dependency on dhcpcanon since broken and not integrated with NetworkManger
+    
+    https://forums.whonix.org/t/kicksecure-network-configuration/8985/58
+
+commit 4fb93d984d00c22fae96888184c5d2063ace3f01
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 16 08:36:19 2020 -0400
+
+    bumped changelog version
+
 commit 5269b49d3f24ed12f24e7f8095d983ab76da5353
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Apr 15 14:05:33 2020 -0400
