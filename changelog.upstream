@@ -1,3 +1,33 @@
+commit 5bc94b607ddcdf46dde531f30af71cd887fbfe87
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 23 08:13:44 2020 -0400
+
+    readme
+
+commit 3849d3f6a5c1f9ca7063f111604f978ec81c4f93
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 23 08:10:18 2020 -0400
+
+    Depends: iw
+
+commit 1d3a54aa00821d3c680762b94022cb63915c8c0f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 23 07:46:52 2020 -0400
+
+    kicksecure-network-conf Depends: network-manager
+
+commit cb73e62fb123a1151902c803614c2372785a6bbc
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 23 07:45:10 2020 -0400
+
+    description
+
+commit a8b9d3a30038805e949aa9d3caf5278835144ed0
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 23 07:31:55 2020 -0400
+
+    bumped changelog version
+
 commit 65e900cd8d56d753ce5be0695e7788d15adc61fe
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Apr 23 07:29:24 2020 -0400
