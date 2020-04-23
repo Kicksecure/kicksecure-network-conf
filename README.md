@@ -1,8 +1,5 @@
 # Network Configuration for Kicksecure CLI #
 
-Sets up external network interfaces eth0 by shipping a configuration file
-/etc/network/interfaces.d/30_kicksecure for Kicksecure.
-
 Disables systemd Predictable Network Interface Names.
 
 Configures DNS by shipping a configuration file /etc/resolv.conf for
