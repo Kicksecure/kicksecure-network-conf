@@ -13,7 +13,7 @@ Standards-Version: 4.3.0
 
 Package: kicksecure-network-conf
 Architecture: all
-Depends: network-manager, netbase, dnscrypt-proxy,
+Depends: network-manager, iw, netbase, dnscrypt-proxy,
  ${misc:Depends}
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
