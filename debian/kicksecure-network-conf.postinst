@@ -25,7 +25,7 @@ true "
 ## config-package-dev displace of /etc/resolv.conf broken on Travis CI.
 ## Therefore disabling errexit and ERR trap.
 ## https://api.travis-ci.org/v3/job/662802873/log.txt
-## Adding 'diversion of /etc/resolv.conf to /etc/resolv.conf.anondist-orig by kicksecure-network-conf'
+## Adding 'diversion of /etc/resolv.conf to /etc/resolv.conf.kicksecure-orig by kicksecure-network-conf'
 ## dpkg-divert: error: unable to remove copied source file '/etc/resolv.conf': Device or resource busy
 set +e
 trap "" ERR
