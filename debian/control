@@ -13,7 +13,7 @@ Standards-Version: 4.3.0
 
 Package: kicksecure-network-conf
 Architecture: all
-Depends: network-manager, iw, wpasupplicant, netbase, dnscrypt-proxy,
+Depends: network-manager, iw, wpasupplicant, netbase,
  ${misc:Depends}
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
@@ -26,8 +26,6 @@ Description: Network Configuration for Kicksecure CLI
  Disables systemd-resolved during boot unless file /etc/dns-enable exists.
  .
  Disables systemd-resolved fallback DNS (which by default is set to Google).
- .
- Enables DNSCrypt.
 
 Package: kicksecure-network-conf-gui
 Architecture: all
