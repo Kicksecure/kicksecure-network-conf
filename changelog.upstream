@@ -1,3 +1,15 @@
+commit a777eb3056e911888880219188a8c190ffc9ec2d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 11 14:07:13 2020 -0400
+
+    no more files in /etc
+
+commit e805a134d15361b9e01c932db0972694f22787b7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 11 13:41:14 2020 -0400
+
+    bumped changelog version
+
 commit 0908c78b6bb5e8c3bc3d679145f2961ff27ec573
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sat Jul 11 13:41:13 2020 -0400
