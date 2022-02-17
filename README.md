@@ -2,9 +2,6 @@
 
 Disables systemd Predictable Network Interface Names.
 
-Configures DNS by shipping a configuration file /etc/resolv.conf for
-Kicksecure.
-
 Disables systemd-resolved during boot unless file /etc/dns-enable exists.
 
 Disables systemd-resolved fallback DNS (which by default is set to Google).
