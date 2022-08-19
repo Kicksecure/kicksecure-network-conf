@@ -24,6 +24,9 @@ Description: Network Configuration for Kicksecure CLI
  Disables systemd-resolved during boot unless file /etc/dns-enable exists.
  .
  Disables systemd-resolved fallback DNS (which by default is set to Google).
+ .
+ Disables NetworkManager hostname management (useful in redistributed
+ Kicksecure VMs).
 
 Package: kicksecure-network-conf-gui
 Architecture: all
