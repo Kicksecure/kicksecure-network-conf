@@ -1,3 +1,47 @@
+commit 50abe435a094236dc265802ecdc1c330290c2d91
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Aug 19 09:29:50 2022 -0400
+
+    add debian install file (generated using "genmkfile debinstfile")
+
+commit f5215805f05fc7c88f92a21c80fd080d2f379377
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Aug 19 08:53:24 2022 -0400
+
+    comment
+
+commit 860a831c66796e4bdb14a4d46220b38a2ce8b82d
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Aug 19 08:51:56 2022 -0400
+
+    description
+
+commit d5deaa6ba75bb5b2831e0436898a529d564b4cea
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Aug 19 08:50:33 2022 -0400
+
+    comment
+
+commit b4c492e4225357ed7fb9825ff368d916050b3c8b
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Aug 19 08:44:49 2022 -0400
+
+    fix `hostname` showing `localhost.localdomain` instead of `localhost`
+    
+    The hostname is set to `localhost` in `/etc/hostname` already.
+    However, NetworkManager considers that an invalid hostname and therefore changes it.
+    
+    Therefore disable NetworkManager hostname management by setting
+    NetworkManager `hostname-mode=none`.
+    
+    https://forums.whonix.org/t/kicksecure-etc-hostname-etc-hosts/10919
+
+commit a902e350d7e9f229e80f8854866ca3c5b5b30a28
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed May 25 06:06:35 2022 -0400
+
+    bumped changelog version
+
 commit 7a49765df31fdea3514d4aefb88015031ee068df
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Fri May 20 15:27:07 2022 -0400
