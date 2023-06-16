@@ -6,17 +6,20 @@ Disables systemd-resolved during boot unless file /etc/dns-enable exists.
 
 Disables systemd-resolved fallback DNS (which by default is set to Google).
 
+Disables NetworkManager hostname management (useful in redistributed
+Kicksecure VMs).
+
 ## How to install `kicksecure-network-conf` using apt-get ##
 
 1\. Download the APT Signing Key.
 
 ```
-wget https://www.kicksecure.com/derivative.asc
+wget https://www.kicksecure.com/keys/derivative.asc
 ```
 
 Users can [check the Signing Key](https://www.kicksecure.com/wiki/Signing_Key) for better security.
 
-2\. Add the APT Signing Key..
+2\. Add the APT Signing Key.
 
 ```
 sudo cp ~/derivative.asc /usr/share/keyrings/derivative.asc
@@ -25,7 +28,7 @@ sudo cp ~/derivative.asc /usr/share/keyrings/derivative.asc
 3\. Add the derivative repository.
 
 ```
-echo "deb [signed-by=/usr/share/keyrings/derivative.asc] https://deb.kicksecure.com bullseye main contrib non-free" | sudo tee /etc/apt/sources.list.d/derivative.list
+echo "deb [signed-by=/usr/share/keyrings/derivative.asc] https://deb.kicksecure.com bookworm main contrib non-free" | sudo tee /etc/apt/sources.list.d/derivative.list
 ```
 
 4\. Update your package lists.
@@ -58,7 +61,7 @@ NOTE: Replace `generic-package` with the actual name of this package `kicksecure
 ## Contact ##
 
 * [Free Forum Support](https://forums.kicksecure.com)
-* [Professional Support](https://www.kicksecure.com/wiki/Professional_Support)
+* [Premium Support](https://www.kicksecure.com/wiki/Premium_Support)
 
 ## Donate ##
 
