@@ -14,7 +14,7 @@ Rules-Requires-Root: no
 
 Package: kicksecure-network-conf
 Architecture: all
-Depends: network-manager, iw, wpasupplicant, netbase,
+Depends: network-manager, iw, wpasupplicant, netbase, wireless-tools,
  ${misc:Depends}
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
