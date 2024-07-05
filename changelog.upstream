@@ -1,3 +1,15 @@
+commit 46bfea3ecc2b2372abfe4076caa7769d68d2ff74
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Jul 5 16:28:15 2024 -0400
+
+    install wireless-tools by default
+
+commit 43d165b528fd2670a44cd93fe0b6a2647a0e7364
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jan 22 13:29:19 2024 +0000
+
+    bumped changelog version
+
 commit 063ec3baed96030ba492d4af4c05a60ca4db170c
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Jan 22 07:41:41 2024 -0500
