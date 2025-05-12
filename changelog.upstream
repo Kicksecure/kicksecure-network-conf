@@ -1,3 +1,26 @@
+commit a542cb2622a2700dbef2447e61ea7763bd2ba8f7
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon May 12 03:45:39 2025 -0400
+
+    install `wireless-regdb` by default
+    
+    add `wireless-regdb` to `kicksecure-network-conf`
+    
+    fix error messages:
+    
+    ```
+    May 11 15:41:42 localhost kernel: platform regulatory.0: firmware: failed to load regulatory.db (-2)
+    May 11 15:41:42 localhost kernel: platform regulatory.0: firmware: failed to load regulatory.db (-2)
+    May 11 15:41:42 localhost kernel: platform regulatory.0: Direct firmware load for regulatory.db failed with error -2
+    May 11 15:41:42 localhost kernel: cfg80211: failed to load regulatory.db
+    ```
+
+commit 700061e72ba7fdddaf99e35d2b76d68323885b85
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Jan 23 16:23:50 2025 +0000
+
+    bumped changelog version
+
 commit ed42f9ff09c9ff904be99054747829952c967e65
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Thu Jan 23 11:10:43 2025 -0500
